@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-electron
+release
+.env
+.env.*
+!.env.example
+.cache/
+*.exe
+*.log
+.DS_Store

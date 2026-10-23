@@ -1,0 +1,89 @@
+/* ============================================================
+   主题变量：浅色 / 深色 / 淡粉
+   三套主题用 data-theme 切换；毛玻璃效果统一启用。
+   ============================================================ */
+
+:root {
+  --radius: 18px;
+  --radius-sm: 12px;
+  --radius-lg: 26px;
+  --blur: 22px;
+  --shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 18px 60px rgba(0, 0, 0, 0.14);
+  --font-ui: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ---------- 浅色：纯白底 + 黑字 ---------- */
+html[data-theme="light"] {
+  --bg-grad: #ffffff;
+  --glass: rgba(255, 255, 255, 0.85);
+  --glass-strong: #ffffff;
+  --glass-border: rgba(18, 20, 26, 0.08);
+  --card: #ffffff;
+  --text: #111418;
+  --text-soft: #4c5668;
+  --text-mute: #98a0ad;
+  --accent: #111418;
+  --accent-2: #111418;
+  --accent-soft: rgba(17, 20, 24, 0.1);
+  --on-accent: #ffffff;
+  --field: #ffffff;
+  --field-border: rgba(18, 20, 26, 0.14);
+  --danger: #e5484d;
+  --danger-soft: rgba(229, 72, 77, 0.1);
+  --ok: #2f9e6f;
+  --ok-soft: rgba(47, 158, 111, 0.12);
+  --divider: rgba(18, 20, 26, 0.09);
+  --pill-bg: #eceff3;
+  --pill-text: #111418;
+}
+
+/* ---------- 深色：纯黑底 + 白字 ---------- */
+html[data-theme="dark"] {
+  --bg-grad: #0b0d12;
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-strong: #171a22;
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --card: #13161c;
+  --text: #f5f6f8;
+  --text-soft: #b6bdca;
+  --text-mute: #7d8697;
+  --accent: #f5f6f8;
+  --accent-2: #f5f6f8;
+  --accent-soft: rgba(245, 246, 248, 0.14);
+  --on-accent: #0b0d12;
+  --field: #171a22;
+  --field-border: rgba(255, 255, 255, 0.13);
+  --danger: #ff6b70;
+  --danger-soft: rgba(255, 107, 112, 0.13);
+  --ok: #4cc0a0;
+  --ok-soft: rgba(76, 192, 160, 0.15);
+  --divider: rgba(238, 241, 247, 0.11);
+  --pill-bg: #262b36;
+  --pill-text: #f5f6f8;
+}
+
+/* ---------- 淡粉：淡粉底 + 白色元素 ---------- */
+html[data-theme="pink"] {
+  --bg-grad: #ffdce8;
+  --glass: rgba(255, 245, 248, 0.82);
+  --glass-strong: #fff5f8;
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --card: #fff5f8;
+  --text: #5b2833;
+  --text-soft: #94515f;
+  --text-mute: #c48d99;
+  --accent: #ef6f9d;
+  --accent-2: #c47ce0;
+  --accent-soft: rgba(239, 111, 157, 0.14);
+  --on-accent: #ffffff;
+  --field: #fff8fa;
+  --field-border: rgba(239, 111, 157, 0.38);
+  --danger: #e5484d;
+  --danger-soft: rgba(229, 72, 77, 0.1);
+  --ok: #d27fae;
+  --ok-soft: rgba(210, 127, 174, 0.15);
+  --divider: rgba(91, 40, 51, 0.1);
+  --pill-bg: #fcdbe5;
+  --pill-text: #5b2833;
+}
