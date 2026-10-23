@@ -1,4 +1,4 @@
-﻿# 加密压缩 · ImgPkg
+# 加密压缩 · ImgPkg
 
 把附件加密后藏进图片或视频，用一份文件分享，也用同一个工具完整取回。
 
@@ -10,7 +10,7 @@
 
 ## 下载与运行
 
-打开 [Releases](https://github.com/qcya/imgpkg-tool/releases)，下载 `加密压缩-便携版-1.1.2.exe`，双击运行，无需安装。当前提供 Windows x64 便携程序；GitHub 自动生成的 Source code 是源码，不是可直接运行的软件。
+打开 [Releases](https://github.com/qcya/imgpkg-tool/releases)，下载 `ImgPkg-Portable-1.1.2-Windows-x64.exe`，双击运行，无需安装。当前提供 Windows x64 便携程序；GitHub 自动生成的 Source code 是源码，不是可直接运行的软件。
 
 ## 可以做什么
 
